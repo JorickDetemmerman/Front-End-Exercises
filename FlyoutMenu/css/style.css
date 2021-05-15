@@ -1,0 +1,58 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar-menu {
+    background-color: #444444;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 30%;
+    height: 50px;
+    display: none;
+    transition: 1s;
+}
+
+.active {
+    display: block;
+    transition: 1s;
+}
+
+.navbar-menu .menu-listing {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.menu-listing li a {
+    background-color: #444444;
+    color: #ffffff;
+    display: block;
+    font-size: 1rem;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.menu-listing li a:hover {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-menu {
+        height: auto;
+        z-index: 1;
+    }
+
+    .menu-listing li {
+        display: block;
+    }
+
+    .navbar-menu .menu-listing {
+        text-align: center;
+    }
+}
