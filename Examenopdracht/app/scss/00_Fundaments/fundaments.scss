@@ -1,0 +1,108 @@
+//Colors--------------------------------------------------------------------------------------------
+$coral: #FF8482;
+$red: #BE6361;
+$darkRed: #A85756;
+$sand: #FFF2DD;
+$white: #FFFFFF;
+$half-white: rgba(255, 255, 255, 0.5);
+$text-black: #333333;
+$button-border: rgba(255, 255, 255, 0.295063);
+
+//Text colors---------------------------------------------------------------------------------------
+
+.text-white {
+    color: $white;
+}
+
+.text-white {
+    color: $text-black;
+}
+
+.text-red {
+    color: $red;
+}
+
+.half-white {
+    color: $half-white;
+}
+
+//Fonts---------------------------------------------------------------------------------------------
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(../../font/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: DMSans-Bold;
+    src: url(../../font/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlfaSlabOne-Regular;
+    src: url(../../font/AlfaSlabOne-Regular.ttf);
+}
+
+//Text styles-----------------------------------------------------------------------------------------------
+h1 {
+    font-family: AlfaSlabOne-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+h2 {
+    font-family: AlfaSlabOne-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+h3 {
+    font-family: AlfaSlabOne-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h4 {
+    font-family: DMSans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h5 {
+    font-family: DMSans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.bold {
+    font-family: DMSans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-small {
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}

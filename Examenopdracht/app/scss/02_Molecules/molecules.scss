@@ -1,0 +1,161 @@
+@import "../01_Atoms/atoms.scss";
+
+//Content blocks---------------------------------------------------------------------------------------------
+.pink {
+    background-color: $coral;
+}
+
+.sand {
+    background-color: $sand;
+}
+
+.white {
+    background-color: $white;
+}
+
+.red {
+    background-color: $red;
+}
+
+.darkred {
+    background-color: $darkRed;
+}
+
+.content-block {
+    min-height: 768px;
+}
+
+.content-block-small {
+    min-height: 448px;
+}
+
+.content-block-mini {
+    min-height: 80px;
+}
+
+//navbar----------------------------------------------------------------------------------------------------
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .signup-button {
+        display: display-block;
+    }
+
+    .signup-link a {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .signup-button {
+        display: none;
+    }
+
+    .signup-link a {
+        display: inline-block;
+    }
+}
+
+
+nav {
+    a {
+        color: $white !important;
+    }
+}
+
+.link:hover {
+    border-bottom: 2px solid $white;
+    padding: 6px 0;
+}
+
+
+//temp-------------------------------------------------------------------------------------------------------
+@media only screen and (max-width: 992px) {
+    .overflow-break {
+        overflow-wrap: break-word;
+    }
+}
+
+.vertical-center-children {
+    display: flex;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-field {
+    min-height: 48px;
+    max-width: 270px;
+}
+
+.padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padding-bottom {
+    padding-bottom: 25px;
+}
+
+.padding-top {
+    padding-top: 25px;
+}
+
+.padding-top-extra {
+    padding-top: 50px;
+}
+
+.padding-right {
+    padding-right: 50px;
+}
+
+.margin-right-icon {
+    margin-right: 15px;
+}
+
+.padding-left {
+    padding-left: 50px;
+}
+
+.padding-sides {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.background-image {
+    background-image: url("/images/sport.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.vertical-align-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 21px;
+    height: 20px;
+}
+
+.p-flex {
+    display: flex;
+}

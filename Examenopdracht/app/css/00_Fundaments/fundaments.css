@@ -1,0 +1,79 @@
+.text-white {
+  color: #FFFFFF; }
+
+.text-white {
+  color: #333333; }
+
+.text-red {
+  color: #BE6361; }
+
+.half-white {
+  color: rgba(255, 255, 255, 0.5); }
+
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(../../font/DMSans-Regular.ttf); }
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url(../../font/DMSans-Bold.ttf); }
+
+@font-face {
+  font-family: AlfaSlabOne-Regular;
+  src: url(../../font/AlfaSlabOne-Regular.ttf); }
+
+h1 {
+  font-family: AlfaSlabOne-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 80px; }
+
+h2 {
+  font-family: AlfaSlabOne-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px; }
+
+h3 {
+  font-family: AlfaSlabOne-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px; }
+
+h4 {
+  font-family: DMSans-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px; }
+
+h5 {
+  font-family: DMSans-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px; }
+
+p {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px; }
+
+.bold {
+  font-family: DMSans-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px; }
+
+.text-small {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px; }
